@@ -41,5 +41,5 @@ The Smart Streetlight Monitoring System provides an efficient solution for monit
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/smart-streetlight-monitoring.git
+   git clone https://github.com/RohaannM/smart-streetlight-monitoring.git
    cd smart-streetlight-monitoring
