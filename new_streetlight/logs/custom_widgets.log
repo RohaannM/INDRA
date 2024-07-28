@@ -1,0 +1,132 @@
+2024-07-24 19:36:21,880 - DEBUG - Running JS: var channelObjects = null;new QWebChannel(qt.webChannelTransport, function(channel) {    channelObjects = channel.objects;});
+2024-07-24 19:36:21,880 - DEBUG - Running JS: var map = L.map("map")
+2024-07-24 19:36:21,881 - DEBUG - Running JS: map.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onClick(e)})
+2024-07-24 19:36:21,881 - DEBUG - Running JS: map.on("contextmenu", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onRightClick(e)})
+2024-07-24 19:36:21,882 - DEBUG - Running JS: map.on("zoom", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onZoom(e)})
+2024-07-24 19:36:21,882 - DEBUG - Running JS: map.on("draw:created", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onDrawCreated(e)})
+2024-07-24 19:36:21,882 - DEBUG - Running JS: map.setView([12.97, 77.59], 10);
+2024-07-24 19:36:21,882 - DEBUG - Running JS: var l0 = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")
+2024-07-24 19:36:21,882 - DEBUG - Running JS: map.addLayer(l0)
+2024-07-24 19:36:21,882 - DEBUG - Running JS: var l1 = L.marker([12.934056, 77.610029])
+2024-07-24 19:36:21,882 - DEBUG - Running JS: l1.on("move", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMove(e)})
+2024-07-24 19:36:21,882 - DEBUG - Running JS: l1.on("moveend", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMoveend(e)})
+2024-07-24 19:36:21,882 - DEBUG - Running JS: l1.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._click(e)})
+2024-07-24 19:36:21,882 - DEBUG - Running JS: map.addLayer(l1)
+2024-07-24 19:36:21,882 - DEBUG - Running JS: l1.bindPopup("Maps are a treasure.")
+2024-07-24 19:36:23,856 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB95880>
+2024-07-24 19:36:25,121 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB957C0>
+2024-07-24 19:36:25,988 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB95880>
+2024-07-24 19:36:26,294 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB957C0>
+2024-07-24 19:36:26,604 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB95880>
+2024-07-24 19:36:26,907 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB957C0>
+2024-07-24 19:36:27,231 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB95880>
+2024-07-24 19:36:27,522 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB957C0>
+2024-07-24 19:36:28,088 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB95880>
+2024-07-24 19:36:28,504 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB957C0>
+2024-07-24 19:36:28,803 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB95880>
+2024-07-24 19:36:29,388 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB957C0>
+2024-07-24 19:36:30,147 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000018A8EB95880>
+2024-07-24 19:43:06,227 - DEBUG - Running JS: var channelObjects = null;new QWebChannel(qt.webChannelTransport, function(channel) {    channelObjects = channel.objects;});
+2024-07-24 19:43:06,227 - DEBUG - Running JS: var map = L.map("map")
+2024-07-24 19:43:06,227 - DEBUG - Running JS: map.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onClick(e)})
+2024-07-24 19:43:06,227 - DEBUG - Running JS: map.on("contextmenu", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onRightClick(e)})
+2024-07-24 19:43:06,227 - DEBUG - Running JS: map.on("zoom", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onZoom(e)})
+2024-07-24 19:43:06,227 - DEBUG - Running JS: map.on("draw:created", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onDrawCreated(e)})
+2024-07-24 19:43:06,228 - DEBUG - Running JS: map.setView([12.97, 77.59], 10);
+2024-07-24 19:43:06,228 - DEBUG - Running JS: var l0 = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")
+2024-07-24 19:43:06,228 - DEBUG - Running JS: map.addLayer(l0)
+2024-07-24 19:43:06,228 - DEBUG - Running JS: var l1 = L.marker([12.934056, 77.610029])
+2024-07-24 19:43:06,228 - DEBUG - Running JS: l1.on("move", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMove(e)})
+2024-07-24 19:43:06,228 - DEBUG - Running JS: l1.on("moveend", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMoveend(e)})
+2024-07-24 19:43:06,228 - DEBUG - Running JS: l1.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._click(e)})
+2024-07-24 19:43:06,228 - DEBUG - Running JS: map.addLayer(l1)
+2024-07-24 19:43:06,228 - DEBUG - Running JS: l1.bindPopup("Maps are a treasure.")
+2024-07-24 19:43:08,046 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x000001E113179240>
+2024-07-24 19:43:08,345 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x000001E113179240>
+2024-07-24 19:49:24,843 - DEBUG - Running JS: var channelObjects = null;new QWebChannel(qt.webChannelTransport, function(channel) {    channelObjects = channel.objects;});
+2024-07-24 19:49:24,844 - DEBUG - Running JS: var map = L.map("map")
+2024-07-24 19:49:24,844 - DEBUG - Running JS: map.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onClick(e)})
+2024-07-24 19:49:24,844 - DEBUG - Running JS: map.on("contextmenu", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onRightClick(e)})
+2024-07-24 19:49:24,844 - DEBUG - Running JS: map.on("zoom", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onZoom(e)})
+2024-07-24 19:49:24,844 - DEBUG - Running JS: map.on("draw:created", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onDrawCreated(e)})
+2024-07-24 19:49:24,844 - DEBUG - Running JS: map.setView([12.97, 77.59], 10);
+2024-07-24 19:49:24,844 - DEBUG - Running JS: var l0 = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")
+2024-07-24 19:49:24,844 - DEBUG - Running JS: map.addLayer(l0)
+2024-07-24 19:49:24,844 - DEBUG - Running JS: var l1 = L.marker([12.934056, 77.610029])
+2024-07-24 19:49:24,844 - DEBUG - Running JS: l1.on("move", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMove(e)})
+2024-07-24 19:49:24,844 - DEBUG - Running JS: l1.on("moveend", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMoveend(e)})
+2024-07-24 19:49:24,844 - DEBUG - Running JS: l1.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._click(e)})
+2024-07-24 19:49:24,844 - DEBUG - Running JS: map.addLayer(l1)
+2024-07-24 19:49:24,845 - DEBUG - Running JS: l1.bindPopup("Maps are a treasure.")
+2024-07-24 19:50:09,452 - DEBUG - Running JS: var channelObjects = null;new QWebChannel(qt.webChannelTransport, function(channel) {    channelObjects = channel.objects;});
+2024-07-24 19:50:09,452 - DEBUG - Running JS: var map = L.map("map")
+2024-07-24 19:50:09,452 - DEBUG - Running JS: map.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onClick(e)})
+2024-07-24 19:50:09,453 - DEBUG - Running JS: map.on("contextmenu", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onRightClick(e)})
+2024-07-24 19:50:09,453 - DEBUG - Running JS: map.on("zoom", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onZoom(e)})
+2024-07-24 19:50:09,453 - DEBUG - Running JS: map.on("draw:created", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onDrawCreated(e)})
+2024-07-24 19:50:09,453 - DEBUG - Running JS: map.setView([12.97, 77.59], 10);
+2024-07-24 19:50:09,453 - DEBUG - Running JS: var l0 = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")
+2024-07-24 19:50:09,453 - DEBUG - Running JS: map.addLayer(l0)
+2024-07-24 19:50:09,453 - DEBUG - Running JS: var l1 = L.marker([12.934056, 77.610029])
+2024-07-24 19:50:09,453 - DEBUG - Running JS: l1.on("move", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMove(e)})
+2024-07-24 19:50:09,453 - DEBUG - Running JS: l1.on("moveend", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMoveend(e)})
+2024-07-24 19:50:09,453 - DEBUG - Running JS: l1.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._click(e)})
+2024-07-24 19:50:09,454 - DEBUG - Running JS: map.addLayer(l1)
+2024-07-24 19:50:09,454 - DEBUG - Running JS: l1.bindPopup("Maps are a treasure.")
+2024-07-24 19:50:15,635 - DEBUG - map clicked. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"containerPoint":{"x":293.81692532181694,"y":478.2872333001779},"latlng":{"lat":12.775258303644003,"lng":77.5522388195643},"layerPoint":{"x":292.81692532181694,"y":385.2872333001779},"originalEvent":{"isTrusted":true},"type":"click"})) at 0x00000146352C9240>
+2024-07-24 19:50:16,325 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x00000146352C9180>
+2024-07-24 19:50:16,636 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x00000146352C9240>
+2024-07-24 19:50:18,767 - DEBUG - map clicked. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"containerPoint":{"x":293.81692532181694,"y":478.2872333001779},"latlng":{"lat":12.77812210227109,"lng":77.55148457513205},"layerPoint":{"x":292.81692532181694,"y":385.2872333001779},"originalEvent":{"isTrusted":true},"type":"contextmenu"})) at 0x00000146352C9180>
+2024-07-24 19:50:19,355 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x00000146352C9240>
+2024-07-24 20:27:45,125 - DEBUG - Running JS: var channelObjects = null;new QWebChannel(qt.webChannelTransport, function(channel) {    channelObjects = channel.objects;});
+2024-07-24 20:27:45,125 - DEBUG - Running JS: var map = L.map("map")
+2024-07-24 20:27:45,125 - DEBUG - Running JS: map.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onClick(e)})
+2024-07-24 20:27:45,125 - DEBUG - Running JS: map.on("contextmenu", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onRightClick(e)})
+2024-07-24 20:27:45,125 - DEBUG - Running JS: map.on("zoom", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onZoom(e)})
+2024-07-24 20:27:45,125 - DEBUG - Running JS: map.on("draw:created", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onDrawCreated(e)})
+2024-07-24 20:27:45,125 - DEBUG - Running JS: map.setView([12.97, 77.59], 10);
+2024-07-24 20:27:45,125 - DEBUG - Running JS: var l0 = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")
+2024-07-24 20:27:45,125 - DEBUG - Running JS: map.addLayer(l0)
+2024-07-24 20:27:45,127 - DEBUG - Running JS: var l1 = L.marker([12.934056, 77.610029])
+2024-07-24 20:27:45,127 - DEBUG - Running JS: l1.on("move", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMove(e)})
+2024-07-24 20:27:45,127 - DEBUG - Running JS: l1.on("moveend", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMoveend(e)})
+2024-07-24 20:27:45,127 - DEBUG - Running JS: l1.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._click(e)})
+2024-07-24 20:27:45,127 - DEBUG - Running JS: map.addLayer(l1)
+2024-07-24 20:27:45,127 - DEBUG - Running JS: l1.bindPopup("Maps are a treasure.")
+2024-07-24 20:27:50,089 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x000001A69F3884C0>
+2024-07-24 20:27:50,478 - DEBUG - map clicked. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"containerPoint":{"x":270.771504326851,"y":164.87648947360606},"latlng":{"lat":12.927268256466796,"lng":77.63700669523368},"layerPoint":{"x":353.771504326851,"y":270.87648947360606},"originalEvent":{"isTrusted":true},"type":"click"})) at 0x000001A69F388400>
+2024-07-24 20:27:51,759 - DEBUG - marker clicked. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"containerPoint":{"x":261,"y":162},"latlng":{"lat":12.934056,"lng":77.610029},"layerPoint":{"x":344,"y":268},"originalEvent":{"isTrusted":true},"type":"click"})) at 0x000001A69F3884C0>
+2024-07-24 20:27:57,486 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x000001A69F388400>
+2024-07-24 20:27:58,431 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x000001A69F3884C0>
+2024-07-24 20:27:59,047 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x000001A69F388400>
+2024-07-24 20:29:27,271 - DEBUG - Running JS: var channelObjects = null;new QWebChannel(qt.webChannelTransport, function(channel) {    channelObjects = channel.objects;});
+2024-07-24 20:29:27,271 - DEBUG - Running JS: var map = L.map("map")
+2024-07-24 20:29:27,271 - DEBUG - Running JS: map.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onClick(e)})
+2024-07-24 20:29:27,271 - DEBUG - Running JS: map.on("contextmenu", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onRightClick(e)})
+2024-07-24 20:29:27,271 - DEBUG - Running JS: map.on("zoom", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onZoom(e)})
+2024-07-24 20:29:27,271 - DEBUG - Running JS: map.on("draw:created", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onDrawCreated(e)})
+2024-07-24 20:29:27,271 - DEBUG - Running JS: map.setView([12.97, 77.59], 10);
+2024-07-24 20:29:27,272 - DEBUG - Running JS: var l0 = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")
+2024-07-24 20:29:27,272 - DEBUG - Running JS: map.addLayer(l0)
+2024-07-24 20:29:27,272 - DEBUG - Running JS: var l1 = L.marker([12.934056, 77.610029])
+2024-07-24 20:29:27,272 - DEBUG - Running JS: l1.on("move", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMove(e)})
+2024-07-24 20:29:27,272 - DEBUG - Running JS: l1.on("moveend", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMoveend(e)})
+2024-07-24 20:29:27,272 - DEBUG - Running JS: l1.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._click(e)})
+2024-07-24 20:29:27,272 - DEBUG - Running JS: map.addLayer(l1)
+2024-07-24 20:29:27,273 - DEBUG - Running JS: l1.bindPopup("Maps are a treasure.")
+2024-07-24 20:29:29,072 - DEBUG - map zoom. event: <PySide6.QtCore.QJsonValue(object, QJsonObject({"type":"zoom"})) at 0x0000023A5C909280>
+2024-07-25 10:32:51,042 - DEBUG - Running JS: var channelObjects = null;new QWebChannel(qt.webChannelTransport, function(channel) {    channelObjects = channel.objects;});
+2024-07-25 10:32:51,043 - DEBUG - Running JS: var map = L.map("map")
+2024-07-25 10:32:51,044 - DEBUG - Running JS: map.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onClick(e)})
+2024-07-25 10:32:51,044 - DEBUG - Running JS: map.on("contextmenu", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onRightClick(e)})
+2024-07-25 10:32:51,044 - DEBUG - Running JS: map.on("zoom", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onZoom(e)})
+2024-07-25 10:32:51,044 - DEBUG - Running JS: map.on("draw:created", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.mapObject._onDrawCreated(e)})
+2024-07-25 10:32:51,044 - DEBUG - Running JS: map.setView([12.97, 77.59], 10);
+2024-07-25 10:32:51,044 - DEBUG - Running JS: var l0 = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")
+2024-07-25 10:32:51,044 - DEBUG - Running JS: map.addLayer(l0)
+2024-07-25 10:32:51,044 - DEBUG - Running JS: var l1 = L.marker([12.934056, 77.610029])
+2024-07-25 10:32:51,045 - DEBUG - Running JS: l1.on("move", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMove(e)})
+2024-07-25 10:32:51,045 - DEBUG - Running JS: l1.on("moveend", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._onMoveend(e)})
+2024-07-25 10:32:51,045 - DEBUG - Running JS: l1.on("click", function(e) {                  delete e.target;                  delete e.sourceTarget;                  e = copyWithoutCircularReferences([e], e);                  channelObjects.l1Object._click(e)})
+2024-07-25 10:32:51,045 - DEBUG - Running JS: map.addLayer(l1)
+2024-07-25 10:32:51,045 - DEBUG - Running JS: l1.bindPopup("Maps are a treasure.")
