@@ -1,2 +1,2 @@
 # THINK-IOT
-STREET LIGHT
+Intelligent Network for Detection of Street Lights and Remote Assistance
